@@ -1,0 +1,157 @@
+/* Основні стилі в сирій темі з градаціями сірого */
+body {
+    font-family: 'Courier New', monospace;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 0 1px #ccc, 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+h3 {
+    font-size: 18px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.input-section {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.05);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #bbb;
+    border-radius: 0;
+    background-color: #fff;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #999;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.results-section {
+    margin-top: 30px;
+}
+
+.result-group {
+    background-color: #eee;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-family: 'Courier New', monospace;
+}
+
+.result-group p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.result-group.total {
+    background-color: #e8e8e8;
+    border-color: #ccc;
+    text-align: center;
+}
+
+button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: 1px solid #aaa;
+    padding: 10px 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 0;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+    border-color: #888;
+}
+
+#calculateBtn {
+    background-color: #d8d8d8;
+    border-color: #999;
+}
+
+#calculateBtn:hover {
+    background-color: #c8c8c8;
+}
+
+#resetBtn {
+    background-color: #e8e8e8;
+    border-color: #bbb;
+}
+
+#resetBtn:hover {
+    background-color: #d8d8d8;
+}
+
+/* Додаткові ефекти для сирої теми */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
